@@ -1,0 +1,90 @@
+.inter-uniquifier{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#full-box{
+    background-color: rgb(41, 40, 40);
+}
+.nav-menu{
+    /* border: 2px solid tomato; */
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-title{
+    font-size: 40px;
+    color: coral;
+}
+.nav-btn{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    /* border: 2px solid red; */
+    width: 460px;
+    padding: 5px;
+}
+.btn{
+    margin-left: 47px;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.home-btn{
+    width: 95px;
+    padding: 10px;
+    border-radius: 70px;
+    background-color: coral;
+    border: none;
+}
+.hamburger-menu{
+    display: none;
+      color: white;
+      padding: 20px;
+}
+
+               /* banner section starts here */
+
+ .content{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    margin-left: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content{
+    width: 500px;
+    height: 410px;
+    border: 2px solid green;
+    margin-top: 64px;
+    
+}
+
+ .title-content{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 850px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+ }  
+ 
+ .image{
+    width: 345px;
+    height: 543px;
+ }
+
+                      /* banner section ends here */
+
