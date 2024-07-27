@@ -10,16 +10,19 @@
 }
 
 #full-box{
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(15, 15, 15);
+}
+.container{
+    background: linear-gradient(180.00deg, rgba(59, 59, 59, 0),rgba(145, 144, 144, 0.445) 100%);
 }
 .nav-menu{
     /* border: 2px solid tomato; */
     max-width: 1150px;
     margin: 0 auto;
-    padding: 0 100px 0 100px;
+    /* padding: 0 100px 0 100px; */
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .nav-title{
@@ -45,7 +48,7 @@
     width: 95px;
     padding: 10px;
     border-radius: 70px;
-    background-color: coral;
+    background: rgb(230, 83, 60);
     border: none;
 }
 .hamburger-menu{
@@ -56,35 +59,150 @@
 
                /* banner section starts here */
 
- .content{
+.content{
+    max-width: 1150px;
+    height: 570px;
+    margin: 0 auto;
     /* border: 2px solid red; */
     margin-top: 50px;
-    margin-left: 95px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
-
 .text-content{
     width: 500px;
     height: 410px;
-    border: 2px solid green;
-    margin-top: 64px;
+    /* border: 2px solid green; */
+    margin-top: 100px;
+}
+
+.title-content{
+    color: rgba(255, 255, 255, 0.986);
+    font-size: 62px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+} 
+.health-pera{
+    color: rgba(255, 255, 255, 0.349);
+    font-size: 14px;
+    font-weight: 380;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-1{
+    border: none;
+    width: 160px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+.btn-2{
+    border: none;
+    width: 160px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 42px;
+    color:white;
+    background-color: rgba(36, 35, 35, 0.726);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.style{
+    font-family:'miama',sans-serif;
+    font-weight:400;
+    font-size: 120px;
+    line-height: 1px;
+}
+
+.image{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 570px;
+    margin-left: 130px;
+}
+                /* card-1 starts */
+
+ .card-section{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    position: absolute;
+    width: 190px;
+    height: 85px;
+    left: 645px;
+    top: 400px;
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.062);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+}
+
+ .round-box{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background: rgb(230, 83, 60);
+    margin-top: 22px;
+    margin-right: 8px;
+}
+
+.text{
+    margin-left: 8px;
+    margin-top: 15px;
+    
+}
+.number-video{
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+.tutorial{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+                  /* cards-2 starts hear */
+.card-section-2{
+    border: 2px solid red;
+    position: absolute ;
+    width: 190px;
+    height: 85px;
+    left: 1030px;
+    top: 150px;
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.062);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(5px);
+}
+
+.text{
+    padding: 5px 5px 3px 4px;
+}
+.number-video-2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 35px;
+    margin-top: -10px;
     
 }
 
- .title-content{
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    font-weight: 850px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
- }  
- 
- .image{
-    width: 345px;
-    height: 543px;
- }
+.free-video{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: 10px;
+}
+
 
                       /* banner section ends here */
 
