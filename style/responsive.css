@@ -1,7 +1,8 @@
 @media screen and (max-width:576px) {
+       /* nav section responsive starts here */
     .nav-menu{
         display: block;
-        padding: 10px;
+        padding: 20px;
         display: flex;
         
     }
@@ -15,4 +16,48 @@
     .nav-btn{
         display: none;
     }
+    /* nav section responsive ends here */
+
+
+    .content{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top:-40px;
+        padding-left: 20px;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .health-pera{
+        width: 80%;
+        height: 30%;
+        margin-top: 20px;
+        
+    }
+
+    .btn-1, .btn-2{
+        margin-top: 30px;
+    }
+
+    .image{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .card-section{
+      /* width: 100%; */
+      left: 10px;
+      margin-top: 500px;
+      
+    
+    }
+
+    .card-section-2{
+        left: 273px;
+        margin-top: 400px;
+    }
+
+
 }
